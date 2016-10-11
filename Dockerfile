@@ -1,6 +1,6 @@
 FROM ubuntu
 
-RUN apt-get install sudo git
+RUN apt-get update && apt-get install sudo git
 
 RUN git clone https://github.com/andreicon/cryptonote-generator generator
 
