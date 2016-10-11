@@ -1,8 +1,8 @@
 {
 	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json" ],
 	"base_coin":{
-		"name":"monero",
-		"git":"https://github.com/monero-project/monero.git"
+		"name":"bytecoin",
+		"git":"https://github.com/amjuarez/bytecoin.git"
 	},
 	"core":{
 		"CRYPTONOTE_NAME":"spaga",
