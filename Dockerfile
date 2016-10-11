@@ -8,9 +8,9 @@ RUN git clone https://github.com/andreicon/cryptonote-generator generator
 
 COPY ./config.json /generator/config.json
 
-RUN cd generator && ./install_dependencies.sh
+RUN cd generator && chmod +x ./install_dependencies.sh && ./install_dependencies.sh
 
-RUN ./generator.sh
+RUN chmod +x ./generator.sh && ./generator.sh
 
 ENV DEBIAN_FRONTEND newt
 
