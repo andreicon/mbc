@@ -11,7 +11,7 @@ COPY ./config.json /generator/config.json
 
 RUN cd /generator && chmod +x ./install_dependencies.sh && ./install_dependencies.sh
 
-RUN cd /generator && chmod +x ./generator.sh && ./generator.sh
+RUN cd /generator && chmod +x ./generator.sh && bash generator.sh
 
 ENV DEBIAN_FRONTEND newt
 
