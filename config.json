@@ -1,7 +1,7 @@
 {
 	"extensions": [ "core/bytecoin.json", "print-genesis-tx.json" ],
 	"base_coin":{
-		"name":"bytecoin",
+		"name":"monero",
 		"git":"https://github.com/monero-project/monero.git"
 	},
 	"core":{
