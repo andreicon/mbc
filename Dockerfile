@@ -8,7 +8,7 @@ RUN git clone https://github.com/andreicon/cryptonote-generator generator
 
 COPY ./config.json /generator/config.json
 
-RUN cd generator && ./install-dependencies.sh
+RUN cd generator && ./install_dependencies.sh
 
 RUN ./generator.sh
 
